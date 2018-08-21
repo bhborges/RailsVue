@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Using basic example of ror with vue
 
-* Ruby version
+example used from site onebitcode
 
-* System dependencies
 
-* Configuration
+* Ruby On Rails 5.2
+* Vue.js
+* Bulma
+* Yarn
 
-* Database creation
 
-* Database initialization
+* Create migrations:
 
-* How to run the test suite
+rails db:create db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+* Dependencies
+gem 'webpacker'
 
-* ...
+
+ * bundle:
+
+bundle install
+
+* Libs:
+
+bin/rails webpacker:install
+bin/rails webpacker:install:vue
+bin/yarn install
