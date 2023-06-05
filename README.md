@@ -3,7 +3,6 @@
 
 Using basic example of ror with vue
 
-example used from site onebitcode
 
 
 * Ruby On Rails 5.2
